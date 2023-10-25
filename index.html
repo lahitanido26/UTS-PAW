@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Navbar dengan Hamburger Menu</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="navbar">
+        <div class="logo">Logo</div>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="https://wa.me/6285294943505?Pesan">Contact</a></li>
+          <li><a href="https://lahitanissa.github.io/TugasCV/">About Me</a></li>
+          <li>
+            <a
+              href="https://docs.google.com/document/d/1vIAMCayd1JCfGPQrtoR7bXADUvOJCOHV4IRiJB-amN8/edit?usp=sharing"
+              >Docs</a
+            >
+          </li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      </div>
+    </nav>
+    <!-- HERO -->
+    <div class="hero-section">
+      <div class="text-column">
+        <div class="text">Bring technology is in your hands</div>
+        <p>
+          This technology will bring new things and experiences to your business
+          and company
+        </p>
+        <div style="display: flex; justify-content: center; gap: 10px">
+          <a
+            href="https://instagram.com/harrystyles?igshid=MzMyNGUyNmU2YQ=="
+            class="button primary-button"
+            >Buy</a
+          >
+          <a
+            href="https://instagram.com/jacksonwang852g7?igshid=MzMyNGUyNmU2YQ=="
+            class="button secondary-button"
+            >See all products</a
+          >
+        </div>
+      </div>
+      <div class="image-column">
+        <img
+          src="img/elimende-inagella-0fcNFNZ6sBY-unsplash.jpg"
+          alt="Gambar Hero"
+        />
+      </div>
+    </div>
+    <!-- MAIN -->
+    <div class="main-section">
+      <div class="column column-left">
+        <div style="text-align: center">
+          <img src="img/keyboard-svgrepo-com.svg" alt="" width="50px" />
+          <div class="text">Easy to implement</div>
+          <p>Easy to implement in your company with powerful platform</p>
+        </div>
+      </div>
+      <div class="column column-right">
+        <div style="text-align: center">
+          <img src="img/send-svgrepo-com.svg" alt="" width="50px" />
+          <div class="text">Optimize systems</div>
+          <p>More than 1000 company using this products</p>
+        </div>
+      </div>
+    </div>
+    <div class="main-menu">
+      <div class="column column-left">
+        <img
+          src="img/jason-blackeye-XYrjl3j7smo-unsplash.jpg"
+          alt="Gambar Menu"
+        />
+      </div>
+      <div class="column column-right">
+        <div class="text">Now, Set up and grow your company</div>
+        <p>
+          We offer many products that optimize your company, setup now and grow
+          up your business
+        </p>
+        <a
+          href="https://instagram.com/motaz_azaiza?igshid=MzMyNGUyNmU2YQ=="
+          class="button primary-button"
+          >Demo</a
+        >
+      </div>
+    </div>
+    <form id="ticket-form" style="margin: 50px 50px">
+      <div style="display: flex">
+        <div class="input-group" style="width: 50%">
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" required />
+        </div>
+
+        <div class="input-group" style="width: 50%">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+        </div>
+      </div>
+      <div class="input-group" style="width: 49%">
+        <label for="role">Role:</label>
+        <select id="role">
+          <option value="Designer">Designer</option>
+        </select>
+      </div>
+      <div>
+        <label for="customTextarea">Message:</label>
+        <textarea
+          id="customTextarea"
+          class="custom-textarea"
+          rows="5"
+          placeholder="Your Message"
+        ></textarea>
+      </div>
+      <p>I choose to send information about:</p>
+      <div>
+        <label>
+          <input type="checkbox" name="options" value="Marketing" /> Marketing
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="checkbox" name="options" value="News & Updates" /> News &
+          Updates
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="checkbox" name="options" value="Product updates" />
+          Product updates
+        </label>
+        <br />
+        <br />
+        <label>
+          <input type="checkbox" name="options" value="None" />
+          None
+        </label>
+        <br />
+        <br />
+      </div>
+      <a
+        href="#"
+        class="button primary-button"
+        style="background-color: #9fc188"
+        >Submit</a
+      >
+    </form>
+    <div class="footer">
+      <div class="social-media">
+        <a href="https://twitter.com/lahitanissa"
+          ><img src="img/twitter-rounded-border-svgrepo-com.svg" alt="Twitter"
+        /></a>
+        <a href="https://www.facebook.com/profile.php?id=61552651984942"
+          ><img src="img/facebook-svgrepo-com.svg" alt="Facebook"
+        /></a>
+        <a href="mailto:lahitanianissa32@gmail.com">
+          <img src="img/google-plus-square-svgrepo-com.svg" alt="Google"
+        /></a>
+        <a href="https://instagram.com/anissalahitani?igshid=MzMyNGUyNmU2YQ==">
+          <img src="img/instagram-svgrepo-com.svg" alt="Instagram"
+        /></a>
+      </div>
+      <div class="row">
+        <div class="column">
+          <p>Contact</p>
+          <p>About Me</p>
+          <p>Terms & Conditions</p>
+        </div>
+        <div class="column">
+          <p>Careers</p>
+          <p>Change country</p>
+          <p>FAQ</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
